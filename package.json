@@ -1,0 +1,19 @@
+{
+  "name": "custom-tunnel-relay",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "High-performance edge relay runtime",
+  "scripts": {
+    "build": "node scripts/prepare-build.mjs",
+    "build:frontend": "node scripts/prepare-build.mjs"
+  },
+  "private": true,
+  "license": "MIT",
+  "keywords": [
+    "vercel",
+    "relay",
+    "tunnel"
+  ],
+  "author": "anonymous",
+  "buildId": "edge-relay-optimized-v1"
+}
